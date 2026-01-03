@@ -44,6 +44,8 @@ Then restart Home Assistant.
   - Group IDs
   - Has Credentials
 
+![Screenshot of example user entity created by this integration](https://github.com/lukegackle/Home-Assistant-User-Info-Integration/blob/main/screenshot%20of%20entity.png?raw=true)
+
 ## Sensors
 
 Sensors will be created with the format: `sensor.ha_user_<username>`
