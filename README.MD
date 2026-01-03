@@ -53,5 +53,7 @@ Example: `sensor.ha_user_luke`
 ## Support
 
 Please note that this integration has been developed with the use of AI, though it has passed all of my testing and code review, I am not a Home Assistant developer and I make no guarantees about the quality of the code, you are welcome to perform your own review of the code before use, use at your own risk. 
+
 If you have any issues with this integration feel free to report them and any detailed information about how to reproduce the issue and I will do my best to investigate.
+
 Report issues at: https://github.com/lukegackle/Home-Assistant-User-Info-Integration/issues
