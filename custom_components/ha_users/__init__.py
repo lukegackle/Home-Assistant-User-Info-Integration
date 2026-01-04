@@ -8,9 +8,14 @@ from homeassistant.helpers import discovery
 from homeassistant.helpers.typing import ConfigType
 from homeassistant.const import Platform
 
+import homeassistant.helpers.config_validation as cv
+import voluptuous as vol
+
 from .const import DOMAIN
 
 _LOGGER = logging.getLogger(__name__)
+
+CONFIG_SCHEMA = cv.empty_config_schema(DOMAIN)
 
 
 async def async_setup(hass: HomeAssistant, config: ConfigType) -> bool:
